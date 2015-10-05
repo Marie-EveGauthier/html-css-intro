@@ -34,12 +34,18 @@ section {
 
 /* select all the UL elements that are anywhere insde a NAV element */
 
+nav {
+    background-color: rgba(50, 50, 125, 0.2);
+    margin-bottom: 30px;
+}
+
 nav ul {
     list-style: none;
+    padding: 10px;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     border: 1px solid black;
     padding: 5px;
     margin-left: 10px;
