@@ -55,7 +55,59 @@ nav a {
     text-decoration: none;
 }
 
-table{
+table {
     border-collapse: separate;
     border-spacing: 5px 5px;
+}
+
+aside a {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+    color: white;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.links {
+    width: 50%;
+    float: left;
+    border-bottom: none;
+}
+
+.links ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.links a {
+    display: inline-block;
+}
+
+.partners {
+    width: 50%;
+    float:right;
+    border-bottom: none;
+}
+
+.partners li {
+    display: inline-block;
+    width: 100px;
+}
+
+#partners  {
+   padding-left: 0px;
 }
